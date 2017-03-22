@@ -32,7 +32,7 @@ The only thing that may be changed is that MNL will provide a standard way to id
 
 ### Functions
 Functions take inputs and return a single output. Functions could be as simple as 
-`x` or more complicated `2 * x + 3 * y * y + 1 / z`
+`x` or more more complicated like `2 * x + 3 * y * y + 1 / z`
 
 Functions almost have a recursive definition. Core functions exist as constants or variables
 Complex functions consist of any function, either combined with another function via operators or modified using attributes
@@ -51,7 +51,8 @@ Operations combine two functions into one. For example
 
 ### Attributions 
 Attribution modifies a function to get a new function. This requires an attributer and a single function.
-Common attributes in standard notation is the negative symbol, '-'
+Common attributes in standard notation is the negative symbol.
+
 `-f(x)` turns the function `f(x)` into the function `(0 - 1) * f(x)`
 
 ### Text
