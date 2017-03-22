@@ -31,12 +31,8 @@ Constants are the same as those that exist within standard notation.
 The only thing that may be changed is that MNL will provide a standard way to identify constants.
 
 ### Functions
-Functions take inputs and return a single output. Functions could be as simple as
-
-	x
-or more complicated
-
-	2 * x + 3 * y * y + 1 / z
+Functions take inputs and return a single output. Functions could be as simple as 
+`x` or more complicated `2 * x + 3 * y * y + 1 / z`
 
 Functions almost have a recursive definition. Core functions exist as constants or variables
 Complex functions consist of any function, either combined with another function via operators or modified using attributes
@@ -51,22 +47,12 @@ Operations cannot exist on their own. They require an operator to be paired with
 
 Operations combine two functions into one. For example
 
-	2 + 3
-Is exactly the same as
-
-	5
+`2 + 3` Is exactly the same as `5`
 
 ### Attributions 
 Attribution modifies a function to get a new function. This requires an attributer and a single function.
 Common attributes in standard notation is the negative symbol, '-'
-
-	-f(x)
-turns the function 
-
-	f(x)
-into the function 
-
-	(0 - 1) * f(x)
+`-f(x)` turns the function `f(x)` into the function `(0 - 1) * f(x)`
 
 ### Text
 Text allows editors to write about their mathematics in much more detail that could otherwise be achieved.
