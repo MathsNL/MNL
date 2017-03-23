@@ -2,10 +2,11 @@
 
 This document contains our notation system for relations.
 
-## Equivalence / Equating 
+## Equivalence / Equating / Evaluation
 
 This is your standard use of equals. It is used to denote equivalence between two statements,
-e.g. 3+2 = 1+4. It is written and typed as a normal equals (=).
+e.g. 3+2 = 1+4. It is written and typed as a normal equals (=). This is also used when evaluating
+a statement or function, such as int(y)[x] = (y^2)/2, or f(5) = 10 (given f(x) := 2x)
 
 ## Identity
 
@@ -26,9 +27,3 @@ as a colon-equals (:=).
 Again already present in standard notation, approximation is denoting that one
 statement is approximately equal to another. In written forms it is two tilde, 
 in typed form a tilde (~). In function form, a ~> is used.
-
-## Application / evaluation
-
-Evaluation is the process of evaluating a statement. E.g. working out the value of
-f(5) (where f is a function). Given f(x) := x^2, then f(5) -> 25. Equally,
-when evaluating an integral from S x dx to [(x^2)/2]\_0^1, a -> is used.A
