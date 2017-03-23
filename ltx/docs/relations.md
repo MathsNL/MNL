@@ -31,4 +31,4 @@ in typed form a tilde (~). In function form, a ~> is used.
 
 Evaluation is the process of evaluating a statement. E.g. working out the value of
 f(5) (where f is a function). Given f(x) := x^2, then f(5) -> 25. Equally,
-when evaluating an integral from S x dx to [(x^2)/2]\_0^1, a -> is used.
+when evaluating an integral from S x dx to [(x^2)/2]\_0^1, a -> is used.A
