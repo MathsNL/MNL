@@ -28,6 +28,8 @@ Division: forward-slash `/`
 
 Multiplication (only use cross `x` when performing cross product): full-stop/period `.`
 
+Note that placing two variables next to each other denotes multiplication. This is only to be used when not ambiguous.
+
 `2.3 = 6`
 
 Exponentiation: caret/circumflex `^`
@@ -58,4 +60,3 @@ Integral of y with respect to x `int(y)[x]`
 Supported but advised against is the use of `integrate(y)`, which should only be used in speech.
 
 *Note: common functions are denoted with an initial capital.*
-*Note: these notations are followed by -> to denote evaluation*
