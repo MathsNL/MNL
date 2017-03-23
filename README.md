@@ -34,13 +34,13 @@ solutions or simplified versions of functions, expressions and equations.
 ### Minimising verbosity
 Some notation for mathematics can be 
 verbose compared to others (compare, for example, the simple notation for 
-indices, yet the need for an entire $\log$ function for a relatively similar 
+indices, yet the need for an entire log function for a relatively similar 
 operation).  We aim to minimise this verbosity (of course, not all notation 
 can be minimal) and, through this, allow quick and easy writing and typing 
 of mathematics.  
 
 ### Removing ambiguity
-The standard equals operator ($=$) can be an equivalence, an identity, a 
+The standard equals operator (=) can be an equivalence, an identity, a 
 relation, or an assignment.  Whilst these operations are similar, they can 
 be very different and using the same operator is ambiguous. We aim to remove 
 this ambiguity, and make different operations clearly different.  
@@ -54,7 +54,7 @@ similar, yet the notation is hugely different.
 ### Written--Typed conversion
 As both programmers and mathematicians, we aim to make conversion between 
 written and typed mathematics simple. Whether this be from written notation 
-to \TeX, or written notation to standard typed text.
+to TeX, or written notation to standard typed text.
 
 ## How can I help?
 
