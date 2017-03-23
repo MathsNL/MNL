@@ -1,61 +1,66 @@
 # Mathematical Notation Language
 
-This repository will be the main source of documentation behind MNL.  
-MNL is a conceptual notation potentially to be made into a functional programming language.
+This repository will be the main source of documentation behind MNL, as well 
+as discussion on the project.  MNL is an alternative notation for mathematics, 
+with the intentions of reducing ambiguity and verbosity, and improving 
+the intuitive aspect of mathematical notation.
 
-## Goals
-As mathematicians that enjoy programming and programmers that enjoy mathematics, we want
-a notation that allows us to type out our mathematics without TeX or lots of brackets (This isn't Lisp!)
-We also don't want to over-complicate things, so we'll strip down a lot of the duplicates and context-grammars in the Standard Notation.
+Currently, MNL is only a conceptual notation, which we hope to turn into a 
+plain (typed) text notation, as well as support for direct conversion between 
+writing, text, LaTeX and a programming language, which will likely be 
+functional.
 
-Another thing that would want to do is convert MNL to Standard Notation through an intermediate language to your favourite maths libraries,
-such as TeX or SVG. From there you can go to PDF with one of the countless systems.
+## Background
+Our interest in this project
+started with personal grievances with the standard notation.
 
-As mentioned above, we're all programmers here. It would be useful to have a system like wolfram alpha to parse MNL files
-and get out a new MNL file with solutions or simplified versions of functions, expressions and equations.
+Also, as mathematicians that enjoy programming and programmers that enjoy 
+mathematics, we want a notation that allows us to type out our mathematics 
+without TeX or lots of brackets and clunky notation. We also don't want to 
+over-complicate things, so we'll strip down a lot of the duplicates and 
+context-grammars in the standard notation.
 
-## Language
-MNL consists of 6 different components
+We also want to be able to convert MNL to standard notation through an
+intermediate language, as well as to mathematics libraries in common use
+such as TeX and SVG. From here, PDFs can be generated easily, allowing an
+easy conversion between mathematics and text on a screen.
 
-*	Constants
-*	Functions
-*	Variables
-*	Operations
-*	Attributions
-*	Text
+As mentioned above, we're all programmers here. It would also be useful to have 
+a system like wolfram alpha to parse MNL files and get out a new MNL file with 
+solutions or simplified versions of functions, expressions and equations.
 
-###### The any of the following examples will be written in verbose standard notation.
+## Aims
 
-### Constants
-Constants are the same as those that exist within standard notation.
-The only thing that may be changed is that MNL will provide a standard way to identify constants.
+### Minimising verbosity
+Some notation for mathematics can be 
+verbose compared to others (compare, for example, the simple notation for 
+indices, yet the need for an entire $\log$ function for a relatively similar 
+operation).  We aim to minimise this verbosity (of course, not all notation 
+can be minimal) and, through this, allow quick and easy writing and typing 
+of mathematics.  
 
-### Functions
-Functions take inputs and return a single output. Functions could be as simple as 
-`x` or more more complicated like `2 * x + 3 * y * y + 1 / z`
+### Removing ambiguity
+The standard equals operator ($=$) can be an equivalence, an identity, a 
+relation, or an assignment.  Whilst these operations are similar, they can 
+be very different and using the same operator is ambiguous. We aim to remove 
+this ambiguity, and make different operations clearly different.  
+### Improving clarity
+Along a similar vein, we aim to improve notation such that similar operations 
+appear similar (but not the same). This is necessary such that those learning 
+mathematics can intuitively see that the operations are similar. A perfect 
+example is that of logs, indices and roots. These operations are all very 
+similar, yet the notation is hugely different.  
 
-Functions almost have a recursive definition. Core functions exist as constants or variables
-Complex functions consist of any function, either combined with another function via operators or modified using attributes
+### Written--Typed conversion
+As both programmers and mathematicians, we aim to make conversion between 
+written and typed mathematics simple. Whether this be from written notation 
+to \TeX, or written notation to standard typed text.
 
-### Variables
-Variables are a special case function. The most basic of function that cannot be described as a constant.
-They consist of a name and have any value you want them to have,
-but a value is not required for a variable to be used
+## How can I help?
 
-### Operations
-Operations cannot exist on their own. They require an operator to be paired with 2 functions, commonly with one function on either side of the operator
+At present, this project is motivated purely by interest and is handled by 
+the main contributors only. However, any suggestions and discussion on the 
+language and notation is invaluable and we encourage it. 
 
-Operations combine two functions into one. For example
-
-`2 + 3` Is exactly the same as `5`
-
-### Attributions 
-Attribution modifies a function to get a new function. This requires an attributer and a single function.
-Common attributes in standard notation is the negative symbol.
-
-`-f(x)` turns the function `f(x)` into the function `(0 - 1) * f(x)`
-
-### Text
-Text allows editors to write about their mathematics in much more detail that could otherwise be achieved.
-This isn't exactly a mathematical notation but it it a common component of every mathematical work and therefore
-we want to include it into MNL.
+If you have any thoughts, disagreements, clarifications or ideas, feel free 
+to open an issue and discuss it with us.
