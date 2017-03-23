@@ -11,8 +11,8 @@ a statement or function, such as int(y)[x] = (y^2)/2, or f(5) = 10 (given f(x) :
 ## Identity
 
 Again, this is the same as in standard notation. It is used to denote an identity or
-congruence, that is, two statements that will always be equivalent, e.g. sin^2(x)
-+ cos^2(x) == 1. It is written as an equals with an extra line and typed as a double
+congruence, that is, two statements that will always be equivalent, e.g. 
+`sin^2(x) + cos^2(x) == 1`. It is written as an equals with an extra line and typed as a double
 equals (==).
 
 ## Declaration / assignment
