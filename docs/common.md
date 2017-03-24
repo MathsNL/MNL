@@ -6,7 +6,7 @@ on a single line.
 
 ## Representing Numbers
 
-Digit separator: apostrophe/single-quote-mark `'`
+Digit triplet separator: apostrophe/single-quote-mark `'`
 
 `10 ^ 6 = 1'000'000` 
 
@@ -41,6 +41,7 @@ x ^ 2 = x . x
 ## Calculus
 
 ### Differentiation
+Differentiation, in hand written notation, will use Liebniz' notation.
 
 Derived function of y with respect to x `dif(y)[x]`
 
@@ -50,7 +51,7 @@ Derivative of y with respect to x at a `dif(y)[x:=a]`
 Supported but advised against is the use of `differentiate(y)`, which should only be used in speech.
 
 ### Integration
-Integration is one of the core parts of calculus. 
+Integration, in hand written notation, will use LIebniz' notation.
 
 Integral of y with respect to x from a to b `int(y)[x:=a; b]`
 

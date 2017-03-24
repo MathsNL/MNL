@@ -1,7 +1,7 @@
 # Function notation
 
 ## Assignment
-To assign a function a value, you should use a colon followed by an equality sign `:=`. For example
+To declare a funciton, use a colon followed by an equality sign `:=`. For example
 
 `f(x) := x^2 + 2`
 
