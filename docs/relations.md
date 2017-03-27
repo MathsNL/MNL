@@ -6,8 +6,7 @@ This document contains our notation system for relations.
 This is your standard use of equals. It is used to denote equivalence between
 two statements, e.g. `3+2 = 1+4`. It is written and typed as a normal equals
 `=`. This is also used when evaluating a statement or function, such as
-`int(y)[x] = (y^2)/2` or, given a function f(x) := 2.x, f(5) = 10.
-
+`int(y)[x] = (y^2)/2` or, given a function `f(x) = 2.x; f(5) = 10.`
 ## Identity
 Again, this is the same as in standard notation. It is used to denote an
 identity or congruence, that is, two statements that will always be equivalent,
